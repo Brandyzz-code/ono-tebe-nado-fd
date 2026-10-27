@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px;
+  padding: 92px 50px 96px;
 }
 
 .header__menu-list {
@@ -10,15 +10,20 @@
   flex-direction: row;
   list-style-type: circle;
   gap: 28px;
-  padding-left: 20px;
+list-style-type: circle;
+}
+
+.header__menu_link_first {
+  list-style-type: none;
 }
 
 .header__menu_link {
   font-size: 20px;
-  font-weight: 400px;
+  font-weight: 400;
   text-transform: lowercase;
   text-decoration: underline;
   text-underline-offset: 4px;
+white-space: none;
 }
 
 .header__menu_link_active {
@@ -29,6 +34,15 @@
   display: block;
   width: 148px;
   height: 105px;
-  top: 92px;
-  left: 478px;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ max-width: 240px;
+ justify-self: end;
+ font-style: normal;
+ font-size: 20px;
+ line-height: 20px;
 }
