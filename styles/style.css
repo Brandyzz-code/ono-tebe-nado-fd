@@ -52,7 +52,7 @@ white-space: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 700px;
+  min-height: 757px;
   padding: 165px 50px 50px;
   color: #FFFFFF;
   background-image: url(/images/lotus-flower.png);
@@ -123,4 +123,67 @@ font-size: 18px;
 line-height: 24px;
 text-transform: uppercase;
 background-color: transparent;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.lots__heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  list-style: none;
+}
+
+.lots__card-list-item {
+  width: 350px;
+  min-height: 600px;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__title {
+  position: relative;
+  z-index: 1;
+text-decoration: underline;
+}
+
+.card__text {
+  position: relative;
+  z-index: 1;
+}
+
+.card_type_book {
+  background-image: url(/images/card-lot-02.jpg);
+}
+
+.card_type_film {
+  background-image: url(/images/card-lot-01.jpg);
+}
+
+.card_type_pictures {
+  background-image: url(/images/card-lot-03.jpg);
 }
