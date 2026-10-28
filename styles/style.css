@@ -48,5 +48,60 @@ white-space: none;
 }
 
 .cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: auto;
   background-image: url(/images/lotus-flower.png);
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+  background-color: #000000;
+}
+
+.cover__title {
+  position: relative;
+  z-index: 1;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.aligned-text_left {
+  text-align: left;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 30px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
