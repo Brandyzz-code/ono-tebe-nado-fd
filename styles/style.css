@@ -260,3 +260,38 @@ text-transform: lowercase;
   font-size: 20px;
   line-height: 24px;
 }
+
+
+.adreess {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+align-items: center;
+padding: 0 785px 82px 50px;
+}
+
+.footer__menu-list {
+display: flex;
+flex-direction: column;
+align-items: center;
+list-style: none;
+text-align: center;
+}
+
+.footer__menu-link {
+  font-size: 18px;
+}
+
+.socials__icon-image {
+  display: flex;
+  width: 240px;
+  height: 48px;
+}
