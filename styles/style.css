@@ -216,6 +216,7 @@ text-decoration: underline;
  grid-template-columns: 350px 1fr;
  column-gap: 25px;
  padding: 120px 24px 180px;
+ margin: 0 auto;
 }
 
 .about__logo {
@@ -223,7 +224,9 @@ text-decoration: underline;
   height: 240px;
   background-color: #000000;
   border-radius: 50%;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about__logo-image {
