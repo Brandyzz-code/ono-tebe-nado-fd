@@ -8,8 +8,8 @@
 .header__menu-list {
   display: flex;
   flex-direction: row;
-  list-style-type: circle;
   gap: 28px;
+  list-style-type: circle;
 list-style-type: circle;
 }
 
@@ -18,11 +18,11 @@ list-style-type: circle;
 }
 
 .header__menu_link {
-  font-size: 20px;
   font-weight: 400;
-  text-transform: lowercase;
+  font-size: 20px;
   text-decoration: underline;
   text-underline-offset: 4px;
+  text-transform: lowercase;
 white-space: none;
 }
 
@@ -39,11 +39,11 @@ white-space: none;
 .header__address {
   display: flex;
   flex-direction: column;
+ justify-self: end;
   align-items: flex-start;
  max-width: 240px;
- justify-self: end;
- font-style: normal;
  font-size: 20px;
+ font-style: normal;
  line-height: 24px;
 }
 
@@ -52,11 +52,12 @@ white-space: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: auto;
-  background-image: url(/images/lotus-flower.png);
-  background-size: cover;
-  background-position: center;
+  min-height: 700px;
+  padding: 165px 50px 50px;
   color: #FFFFFF;
+  background-image: url(/images/lotus-flower.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .overlay {
@@ -69,12 +70,13 @@ white-space: none;
 .cover__title {
   position: relative;
   z-index: 1;
-  color: #FFFFFF;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-size: 100px;
+  color: #FFFFFF;
   font-weight: 700;
+  font-size: 100px;
+  line-height: 115px;
   text-transform: uppercase;
 }
 
@@ -104,4 +106,21 @@ white-space: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.cover__description-text {
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 20px;
+}
+
+.bet-button {
+border: 1px solid #FFFFFF ;
+padding: 10px 30px;
+color: #FFFFFF;
+font-size: 18px;
+line-height: 24px;
+text-transform: uppercase;
+background-color: transparent;
 }
