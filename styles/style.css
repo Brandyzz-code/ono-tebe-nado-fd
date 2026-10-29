@@ -3,6 +3,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 50px 96px;
+  margin: 0 auto;
 }
 
 .header__menu-list {
@@ -23,7 +24,7 @@
   text-decoration: underline;
   text-underline-offset: 4px;
   text-transform: lowercase;
-white-space: nowrap;
+  white-space: nowrap;
 }
 
 .header__menu_link_active {
@@ -36,15 +37,18 @@ white-space: nowrap;
   height: 105px;
 }
 
-.header__address {
+.address {
   display: flex;
   flex-direction: column;
- justify-self: end;
   align-items: flex-start;
- max-width: 240px;
- font-size: 18px;
- font-style: normal;
- line-height: 24px;
+  max-width: 240px;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.header__address {
+  justify-self: end;
 }
 
 .cover {
@@ -54,10 +58,11 @@ white-space: nowrap;
   justify-content: space-between;
   min-height: 757px;
   padding: 165px 50px 50px;
-  color: #FFFFFF;
-  background-image: url(/images/lotus-flower.png);
+  color: #ffffff;
+  background-image: url(../images/lotus-flower.png);
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .overlay {
@@ -73,7 +78,7 @@ white-space: nowrap;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 100px;
   line-height: 115px;
@@ -116,15 +121,16 @@ white-space: nowrap;
 }
 
 .bet-button {
-width: 256px;
-height: 51px;
-  border: 1px solid #FFFFFF ;
-padding: 0;
-color: #FFFFFF;
-font-size: 18px;
-line-height: 24px;
-text-transform: uppercase;
-background-color: transparent;
+  width: 256px;
+  min-height: 51px;
+  border: 1px solid #ffffff;
+  padding: 0;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .lots {
@@ -156,7 +162,7 @@ background-color: transparent;
 .card-link {
   display: block;
   height: 100%;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -174,10 +180,9 @@ background-color: transparent;
 .card__title {
   position: relative;
   z-index: 1;
-min-height: 700;
-font-size: 22px;
-text-decoration: underline;
-text-decoration-style: solid;
+  font-size: 22px;
+  text-decoration: underline;
+  text-decoration-style: solid;
 }
 
 .card__text {
@@ -188,33 +193,32 @@ text-decoration-style: solid;
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_pictures {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots__look-more-link {
-display: inline-block;
-margin: 30px 0 0 40px;
-font-size: 20px;
-line-height: 25px;
-text-decoration: underline;
-text-transform: lowercase;
+  display: inline-block;
+  margin: 30px 0 0 40px;
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: underline;
+  text-transform: lowercase;
 }
 
 .about {
- display: grid;
- grid-template-columns: 240px 1fr;
- column-gap: 25px;
- padding: 120px 50px 180px;
- max-width: 1100px;
- margin: auto;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  column-gap: 25px;
+  padding: 120px 50px 180px;
+  margin: auto;
 }
 
 .about__column {
@@ -237,9 +241,8 @@ text-transform: lowercase;
 .about__logo-image {
   width: 148px;
   height: 114px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
 
 .about__title {
   margin: 0 0 150px 0;
@@ -253,8 +256,8 @@ text-transform: lowercase;
 }
 
 .about__text {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 24px;
   padding: 0;
@@ -262,29 +265,22 @@ text-transform: lowercase;
   line-height: 24px;
 }
 
-
 .footer__address {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-align-items: start;
-padding: 0 50px 82px;
+  align-items: start;
+  padding: 0 50px 82px;
 }
 
 .footer__menu-list {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  list-style: none;
 }
 
 .footer__menu-link {
