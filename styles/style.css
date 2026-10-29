@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px;
   margin: 0 auto;
+  padding: 92px 50px 96px;
 }
 
 .header__menu-list {
@@ -57,12 +57,12 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 757px;
+  margin: 0 auto;
   padding: 165px 50px 50px;
   color: #ffffff;
   background-image: url(../images/lotus-flower.png);
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
 }
 
 .overlay {
@@ -139,11 +139,11 @@
 }
 
 .lots__heading {
+  margin-bottom: 27px;
   color: #000000;
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
-  margin-bottom: 27px;
   text-transform: uppercase;
 }
 
@@ -217,8 +217,8 @@
   display: grid;
   grid-template-columns: 240px 1fr;
   column-gap: 25px;
-  padding: 120px 50px 180px;
   margin: auto;
+  padding: 120px 50px 180px;
 }
 
 .about__column {
@@ -245,6 +245,7 @@
 }
 
 .about__title {
+  width: 291px;
   margin: 0 0 150px 0;
   padding-bottom: 0;
   color: #000000;
@@ -252,7 +253,6 @@
   font-size: 40px;
   line-height: 47px;
   text-transform: uppercase;
-  width: 291px;
 }
 
 .about__text {
@@ -263,9 +263,6 @@
   padding: 0;
   font-size: 20px;
   line-height: 24px;
-}
-
-.footer__address {
 }
 
 .footer {
