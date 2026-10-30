@@ -3,14 +3,23 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   margin: 0 auto;
-  padding: 92px 50px 96px;
+  padding: 92px 0px 96px;
+  width: 1100px;
 }
 
 .header__menu-list {
   display: flex;
   flex-direction: row;
-  gap: 28px;
+  gap: 32px;
   list-style-type: circle;
+  margin: 0;
+  margin-left: 51px;
+  padding: 0;
+}
+
+.header__menu_item {
+  padding: 0;
+  margin-left: 0;
 }
 
 .header__menu_link_first {
@@ -114,10 +123,10 @@
 }
 
 .cover__description-text {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -145,6 +154,7 @@
   font-size: 40px;
   line-height: 47px;
   text-transform: uppercase;
+  margin-left: 40px;
 }
 
 .lots__card-list {
@@ -172,7 +182,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 40px;
+  padding: 48px 40px;
   background-position: center;
   background-size: cover;
 }
@@ -180,7 +190,12 @@
 .card__title {
   position: relative;
   z-index: 1;
+  width: 100%;
+  margin: 0;
   font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
   text-decoration: underline;
   text-decoration-style: solid;
 }
@@ -190,6 +205,7 @@
   z-index: 1;
   font-weight: 400;
   font-size: 20px;
+  line-height: 1.2;
 }
 
 .card_type_book {
@@ -206,7 +222,7 @@
 
 .lots__look-more-link {
   display: inline-block;
-  margin: 30px 0 0 40px;
+  margin: 31px 0 0 40px;
   font-size: 20px;
   line-height: 25px;
   text-decoration: underline;
@@ -216,7 +232,7 @@
 .about {
   display: grid;
   grid-template-columns: 240px 1fr;
-  column-gap: 25px;
+  column-gap: 90px;
   margin: auto;
   padding: 120px 50px 180px;
 }
@@ -233,7 +249,7 @@
   align-items: center;
   width: 240px;
   height: 240px;
-  margin: 0 auto;
+  margin: 33px 22px;
   border-radius: 50%;
   background-color: #000000;
 }
@@ -246,7 +262,7 @@
 
 .about__title {
   width: 291px;
-  margin: 0 0 150px 0;
+  margin: 136px 100px 0 0;
   padding-bottom: 0;
   color: #000000;
   font-weight: 700;
@@ -260,7 +276,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
-  padding: 0;
+  padding-top: 100px;
   font-size: 20px;
   line-height: 24px;
 }
